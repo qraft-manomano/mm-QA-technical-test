@@ -2,7 +2,7 @@
 
 This repository contains:
  1. Instructions to perform the technical challenge
- 2. First question of the tests
+ 2. Questions for the test
  3. Project skeleton to implement question 2
 
 
@@ -21,3 +21,10 @@ This repository contains:
 [Question 1](Questions/Question1.md)
 
 [Question 2](Questions/Question1.md)
+
+## How to use skeleton
+
+The skeleton is ready to be used, run:
+
+ * yarn install
+ * yarn e2e
