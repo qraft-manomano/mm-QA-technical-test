@@ -20,9 +20,11 @@ This repository contains:
 
 [Question 1](Questions/Question1.md)
 
-[Question 2](Questions/Question1.md)
+[Question 2](Questions/Question2.md)
 
 ## How to use skeleton
+
+You need to have [Node](https://nodejs.org/en/download/) and [yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable) to make it work
 
 The skeleton is ready to be used, run:
 
