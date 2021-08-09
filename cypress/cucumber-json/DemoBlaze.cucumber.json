@@ -1,0 +1,432 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Sign up new user, login and make and order",
+    "line": 1,
+    "id": "sign-up-new-user,-login-and-make-and-order",
+    "tags": [],
+    "uri": "DemoBlaze.feature",
+    "elements": [
+      {
+        "id": "sign-up-new-user,-login-and-make-and-order;sign-up-with-a-new-user",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Sign Up with a new user",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open navigator \"DemoBlaze\"",
+            "result": {
+              "status": "passed",
+              "duration": 2392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click signup button on the Main Page",
+            "result": {
+              "status": "passed",
+              "duration": 434000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I see the register popup \"register\"",
+            "result": {
+              "status": "passed",
+              "duration": 466000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I write username",
+            "result": {
+              "status": "passed",
+              "duration": 1331000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I write password",
+            "result": {
+              "status": "passed",
+              "duration": 330000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I confirm the register succesfully",
+            "result": {
+              "status": "passed",
+              "duration": 1449000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-new-user,-login-and-make-and-order;sign-up-with-an-existing-user",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Sign Up with an existing user",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I open navigator \"DemoBlaze\"",
+            "result": {
+              "status": "passed",
+              "duration": 2904000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click signup button on the Main Page",
+            "result": {
+              "status": "passed",
+              "duration": 407000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I see the register popup \"register\"",
+            "result": {
+              "status": "passed",
+              "duration": 469000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I write username",
+            "result": {
+              "status": "passed",
+              "duration": 1347000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I write password",
+            "result": {
+              "status": "passed",
+              "duration": 326000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I confirm the user exist",
+            "result": {
+              "status": "passed",
+              "duration": 1450000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-new-user,-login-and-make-and-order;login-with-the-user-created",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Login with the user created",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I open navigator \"DemoBlaze\"",
+            "result": {
+              "status": "passed",
+              "duration": 2651000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I click login button on the Main Page",
+            "result": {
+              "status": "passed",
+              "duration": 429000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I see the login popup",
+            "result": {
+              "status": "passed",
+              "duration": 450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I write my username",
+            "result": {
+              "status": "passed",
+              "duration": 321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I write my password",
+            "result": {
+              "status": "passed",
+              "duration": 323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I confirm login succesfully",
+            "result": {
+              "status": "passed",
+              "duration": 5476000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-new-user,-login-and-make-and-order;add-to-cart",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Add to cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "I open navigator \"DemoBlaze\"",
+            "result": {
+              "status": "passed",
+              "duration": 2287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "I select a categories",
+            "result": {
+              "status": "passed",
+              "duration": 420000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I add to cart the first product",
+            "result": {
+              "status": "passed",
+              "duration": 2374000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I go to home",
+            "result": {
+              "status": "passed",
+              "duration": 1079000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I add to cart the second product",
+            "result": {
+              "status": "passed",
+              "duration": 2098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I go to home",
+            "result": {
+              "status": "passed",
+              "duration": 286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I open the cart",
+            "result": {
+              "status": "passed",
+              "duration": 3763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I validate my items",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sign-up-new-user,-login-and-make-and-order;buy-the-items",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Buy the items",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "I want to buy my items",
+            "result": {
+              "status": "passed",
+              "duration": 2066000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I place order",
+            "result": {
+              "status": "passed",
+              "duration": 2439000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "I see the place order popup \"checkout\"",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I write Name",
+            "result": {
+              "status": "passed",
+              "duration": 320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I Write Country",
+            "result": {
+              "status": "passed",
+              "duration": 333000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "I write City",
+            "result": {
+              "status": "passed",
+              "duration": 338000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "I write Credit card",
+            "result": {
+              "status": "passed",
+              "duration": 329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "I write Month",
+            "result": {
+              "status": "passed",
+              "duration": 335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "I write Year",
+            "result": {
+              "status": "passed",
+              "duration": 365000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I click purchase",
+            "result": {
+              "status": "passed",
+              "duration": 442000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "I see order confirmation",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

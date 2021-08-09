@@ -1,0 +1,13 @@
+This project has been developed with cypress and cucumber.
+
+You must install first cypress via npm with the comand:
+npm install cypress
+
+After finish the installation, copy from path /cypress repository into your local repository inside /cypress/cypress/.
+
+To execute the project, use in cypress terminal in the path /cypress/:
+node_modules\.bin\cypress open --browser chrome
+
+To open the server and click on DemoBlaze.feature.
+
+I did't use integrated testing only UI testing.
